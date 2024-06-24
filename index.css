@@ -1,0 +1,60 @@
+/* Write your code here. */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container{
+    background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+    background-size: cover;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-heading{
+    color: white;
+    font-family: "Bree Serif";
+}
+
+.yellow-button{
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: #eab308;
+    color: white;
+    border: 0px;
+}
+.white-button{
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: #ffffff;
+    color: #323f4b;
+    border: 0px;
+}
+.blue-button{
+    border: 0px;
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: #1d4ed8;
+    color: white;
+}
+
+@media (max-width: 577px){
+    .inner-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 578px){
+    .yellow-button{
+        margin-right: 12px;
+    }
+    .blue-button{
+        margin-right: 12px;
+    }
+    .white-button{
+        margin-right: 12px;
+    }
+    .inner-container{
+        display: flex;
+        flex-direction: row;
+    }
+}
